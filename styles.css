@@ -1,0 +1,158 @@
+@media (max-width: 768px){
+    html{
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+style {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    display: grid;
+    max-width: 100%;
+    height: 963px;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+    background-color: rgb(156, 224, 245);
+    padding: 10px;
+    border: 5px black dotted;
+}
+
+.box1 {
+    z-index: 5;
+}
+
+.box2 {
+    z-index: 5;
+}
+
+.box3 {
+    z-index: 5;
+}
+
+.box4 {
+    z-index: 5;
+}
+
+.box5 {
+    z-index: 5;
+}
+
+.box6 {
+    z-index: 5;
+}
+
+.box7 {
+    z-index: 1;
+    position: absolute;
+    background-color: blueviolet;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin: 90px 250px;
+    border-radius: 50%;
+}
+
+.box8 {
+    z-index: 1;
+    position: absolute;
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: 90px 1300px;
+    border-radius: 50%;
+}
+
+.box9 {
+    z-index: 1;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    text-align: center;
+    margin: 420px 350px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 150px solid blueviolet;
+}
+
+.box10 {
+    z-index: 1;
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin: 350px 1200px;
+    border-bottom: 100px solid blueviolet;
+    border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
+
+.box11 {
+    z-index: 1;
+    position: absolute;
+    height: 150px;
+    width: 75px;
+    text-align: center;
+    margin: 750px 350px;
+    transform: skew(20deg);
+    background: blueviolet;
+    rotate: 90deg;
+}
+
+.box12 {
+    z-index: 1;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    text-align: center;
+    margin: 750px 1350px;
+    border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 150px solid blueviolet;
+}
+
+.formp {
+    font-size: 40px;
+}
+
+.wrapperform{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: gray;
+    margin-right: 1000px;
+    padding: 10px 10px 10px 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* success html */
+
+.hsuc {
+    font-size: 40px;
+    margin-left: 48%;
+    padding-top: 150px;
+}
+
+.buttonret {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 50%;
+}
